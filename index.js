@@ -11,4 +11,20 @@ function scuberGreetingForFeet(feet){
 
 
 function ternaryCheckCity(destination){
-return destination === "NYC" ? "Okay, sounds good." : "Pittsburgh" ? "No go."
+return destination === "NYC" ? "Ok, sounds good." : "No go."}
+
+pizza === "Pepperoni Pizza" ? "Yum" : "Yuck!"
+
+
+function switchOnCharmFromTip(tip){
+  switch(tip){
+    case "generous":
+      return "Thank you so much.";
+    case "not as generous":
+      return "Thank you.";
+    default:
+      return "Bye.";
+  }
+  
+  
+  }
